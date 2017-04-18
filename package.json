@@ -1,0 +1,33 @@
+{
+  "name": "anypoint-input",
+  "version": "0.1.0",
+  "license": "Apache-2.0 OR CC-BY-4.0",
+  "description": "Anypoint input with data binding and Anypoint validation",
+  "devDependencies": {
+    "polymer-cli": "^0.16.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "private": false,
+  "main": [
+    "anypoint-input.html"
+  ],
+  "author": "The Advanced REST client authors <arc@mulesoft.com>",
+  "scripts": {
+    "serve": "node_modules/.bin/polymer serve",
+    "lint": "node_modules/.bin/polymer lint anypoint-input.html",
+    "test-sauce": "node_modules/.bin/polymer test --plugin sauce --job-name \"anypoint-input:local-test\"",
+    "test": "node_modules/.bin/polymer test",
+    "deps": "npm install --quiet && bower install --quiet",
+    "update-deps": "npm update --quiet && bower update --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/advanced-rest-client/anypoint-input.git"
+  },
+  "bugs": {
+    "url": "https://github.com/advanced-rest-client/anypoint-input/issues",
+    "email": "arc@mulesoft.com"
+  }
+}
