@@ -1,10 +1,14 @@
-## &lt;anypoint-input&gt;
+[![Build Status](https://travis-ci.org/advanced-rest-client/anypoint-input.svg?branch=stage)](https://travis-ci.org/advanced-rest-client/anypoint-input)  
+
+# anypoint-input
+
+## anypoint-input
 
 `<anypoint-input>` adds two-way binding and custom validators using `Anypoint.AnypointValidatorBehavior`
 to `<input>`.
 
-**Note: This is copy of the Polymer's `<iron-input>` but implementing `Anypoint.AnypointValidatableBehavior` 
-instead of `Polymer.IronValidatableBehavior`. All credits to the Polymer team.** 
+*Note: This is copy of the Polymer's `<iron-input>` but implementing `Anypoint.AnypointValidatableBehavior`
+instead of `Polymer.IronValidatableBehavior`. All credits to the Polymer team.**
 
 ### Two-way binding
 
@@ -36,6 +40,17 @@ It may be desirable to only allow users to enter certain characters. You can use
 is separate from validation, and `allowed-pattern` does not affect how the input is validated.
 
 ```html
-<!-- only allow characters that match [0-9] -->
 <input is="anypoint-input" prevent-invalid-input allowed-pattern="[0-9]">
 ```
+
+### Example
+```
+<input is="anypoint-input"/>
+```
+
+
+
+### Events
+| Name | Description | Params |
+| --- | --- | --- |
+| iron-input-validate | The `iron-input-validate` event is fired whenever `validate()` is called. | __none__ |
