@@ -23,7 +23,9 @@
   },
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0",
-    "iron-a11y-announcer": "PolymerElements/iron-a11y-announcer#^1.0.5"
+    "iron-a11y-announcer": "PolymerElements/iron-a11y-announcer#^1.0.5",
+    "anypoint-validatable-behavior": "advanced-rest-client/anypoint-validatable-behavior#^0.1.1",
+    "anypoint-validator-behavior": "advanced-rest-client/anypoint-validator-behavior#^0.1.2"
   },
   "devDependencies": {
     "iron-component-page": "polymerelements/iron-component-page#1.0.0",
