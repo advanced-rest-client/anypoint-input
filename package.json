@@ -1,6 +1,6 @@
 {
   "name": "anypoint-input",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "All rights reserved to Mulesoft Inc.",
   "description": "Anypoint input with data binding and Anypoint validation",
   "devDependencies": {
